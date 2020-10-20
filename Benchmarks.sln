@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapperBenchmarks", "ObjectMapperBenchmarks\ObjectMapperBenchmarks.csproj", "{0AFDC377-5301-4B66-ACA4-0A4B0BDC480C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectMapper", "ObjectMapper\ObjectMapper.csproj", "{0AFDC377-5301-4B66-ACA4-0A4B0BDC480C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
