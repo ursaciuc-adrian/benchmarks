@@ -1,7 +1,7 @@
 # Multithreading
 
 ## Task
-Can't set a maximum number of threads. this has to me implemented by hand
+Can't set a maximum number of threads. this has to be implemented by hand
 #### WaitAll
 - cannot continue without the result
 #### WhenAll
@@ -9,7 +9,7 @@ Can't set a maximum number of threads. this has to me implemented by hand
 
 ## Parallel.Foreach
 [https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-write-a-simple-parallel-foreach-loop](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-write-a-simple-parallel-foreach-loop)
-- When not interested into the output
+- When not interested in the output
 - Simple to use
 - max degree of parallelism
 - threading logic like batching is already in place
@@ -22,16 +22,16 @@ Can't set a maximum number of threads. this has to me implemented by hand
 
 #### ActionBlock
 [https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.dataflow.actionblock-1?view=netcore-3.1](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.dataflow.actionblock-1?view=netcore-3.1)
-- can recive only one parameter (workaround: make a wrapper class for the inputs)
+- can receive only one parameter (workaround: make a wrapper class for the inputs)
 - no value returned
   
 ####  TransformBlock
 [https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-perform-action-when-a-dataflow-block-receives-data](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/how-to-perform-action-when-a-dataflow-block-receives-data)
-- can recive more than one input
+- can receive more than one input
 - has a return value
 - can continue with another function after completion
 
 # Notes
-Using threading on simple function might make the execution slower becouse of all the threading logic involved in the back.
+Using multi-threading on a simple function might make the execution slower because of all the threading logic involved in the back.
 
 ![results.png](results.png "Results")
