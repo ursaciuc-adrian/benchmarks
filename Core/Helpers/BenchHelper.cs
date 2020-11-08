@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace ObjectMapperBenchmarks.Helpers
+namespace Benchmarks.Core.Helpers
 {
 	public static class BenchHelper
 	{
